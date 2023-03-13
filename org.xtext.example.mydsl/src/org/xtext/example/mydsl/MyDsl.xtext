@@ -7,3 +7,6 @@ Model:
 	
 Greeting:
 	'Hello' name=ID '!';
+select:
+	"select" name=ID
+;
