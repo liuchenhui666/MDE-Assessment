@@ -7,6 +7,14 @@ Model:
 	
 Greeting:
 	'Hello' name=ID '!';
-select:
-	"select" name=ID
+choose:
+	"choose" t1=table1 "," t2=table2
+;
+
+table1:
+	name=ID
+;
+
+table2:
+	name=ID
 ;
